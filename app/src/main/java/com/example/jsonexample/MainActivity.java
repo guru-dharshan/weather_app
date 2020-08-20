@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                message.setText( main + ":" + description+"\n"+"temperature"+temp+"c"+"\n"+"humidity :"+hum+"%");
+                message.setText( main + ":" + description+"\n\n"+"Temperature"+temp+"c"+"\n\n"+"Humidity :"+hum+"%");
 
             } catch (JSONException e) {
                 e.printStackTrace( );
